@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Add shader for buttons",
+        "done": true
+    },
+    {
+        "text": "Polish upgrade effect for troop card",
+        "done": true
+    },
+    {
+        "text": "Polish evoleved animation",
+        "done": true
+    },
+    {
+        "text": "Unlock quest",
+        "done": true
+    },
+    {
+        "text": "fixed z position for hero troops",
+        "done": true
+    },
+    {
+        "text": "Add animation rotate for button in troop panel",
+        "done": true
+    },
+    {
+        "text": "Add bounce number for player health an amount enemy spawn",
+        "done": true
+    },
+    {
+        "text": "Polish UI troop card",
+        "done": true
+    },
+    {
+        "text": "fixed time scale for setting panel",
+        "done": true
+    }
+]
