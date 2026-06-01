@@ -213,7 +213,7 @@ def info(message):
 
 @bot.message_handler(commands=['pair'])
 def pair(message):
-    bot.reply_to(message, "❤️ مهرزاد زتو رو خیلی دوست داره ❤️")
+    bot.reply_to(message, "❤️ مهرزاد تو رو خیلی دوست داره ❤️")
 
 @bot.message_handler(commands=['date'])
 def send_date(message):
