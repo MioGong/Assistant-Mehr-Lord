@@ -970,7 +970,7 @@ def handle_all(message):
 
                 bot.send_message(
                     message.chat.id,
-                    f"🚫 {warn_user}\nلینک نفرست ❌"
+                    f"🚫 {warn_user}\nلینک نفرست کصکش❌"
                 )
                 return
         except:
