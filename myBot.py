@@ -219,13 +219,13 @@ def pair(message):
         if len(args) < 2:
             bot.reply_to(
                 message,
-                "❤️ آیدی شخص مهم مهرزاد رو بفرست.\n\nمثال:\n/pair @zees_ha"
+                "❤️ آیدی شخص مهم مهرزاد رو بفرست.\n\nمثال:\n/pair @ID"
             )
             return
 
         username = args[1]
 
-        if username.lower() == "@mrksl":
+        if username.lower() == "@zees_ha":
             bot.reply_to(
                 message,
                 "❤️ مهرزاد تو رو خیلی دوست داره ❤️"
