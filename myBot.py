@@ -213,7 +213,31 @@ def info(message):
 
 @bot.message_handler(commands=['pair'])
 def pair(message):
-    bot.reply_to(message, "❤️ مهرزاد تو رو خیلی دوست داره ❤️")
+    try:
+        args = message.text.split()
+
+        if len(args) < 2:
+            bot.reply_to(
+                message,
+                "❤️ آیدی شخص مهم مهرزاد رو بفرست.\n\nمثال:\n/pair @zees_ha"
+            )
+            return
+
+        username = args[1]
+
+        if username.lower() == "@mrksl":
+            bot.reply_to(
+                message,
+                "❤️ مهرزاد تو رو خیلی دوست داره ❤️"
+            )
+        else:
+            bot.reply_to(
+                message,
+                "❌ این شخص مهم مهرزاد نیست."
+            )
+
+    except Exception as e:
+        bot.reply_to(message, f"خطا: {e}")
 
 @bot.message_handler(commands=['date'])
 def send_date(message):
